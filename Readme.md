@@ -30,9 +30,13 @@ The Real-Time Weather Monitoring System is a Node.js application that continuous
 
 Install Dependencies:
 npm install
+npm install express
 
 Start MongoDB (if not already running):
 mongod
 
 Run the Application:
 node app.js
+
+ui:
+Copy index.html path in browser

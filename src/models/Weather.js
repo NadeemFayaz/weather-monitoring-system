@@ -6,8 +6,9 @@ const weatherSchema = new mongoose.Schema({
     temp: { type: Number, required: true },
     feels_like: { type: Number, required: true },
     weather: { type: String, required: true },
-    timestamp: { type: Date, required: true },
+    timestamp: { type: Date, required: true }
 });
 
 const Weather = mongoose.model('Weather', weatherSchema);
+
 module.exports = Weather;
