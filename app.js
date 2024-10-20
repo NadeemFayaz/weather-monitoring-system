@@ -3,6 +3,7 @@ const { processWeatherData, storeWeatherSummary } = require('./src/controllers/w
 const { checkAlertConditions } = require('./src/alerts/alertService');
 const { interval } = require('./config/config');
 
+
 require('dotenv').config();
 const axios = require('axios');
 const mongoose = require('mongoose');
